@@ -1,0 +1,34 @@
+body{
+    background :url("images/fondSobre2.png");
+    width: 1000px;
+    margin:auto
+}
+
+.logo{
+    width: 400px;
+    margin: auto
+}
+
+.menu{
+    display: inline-block;
+    width: 1000px;
+    margin: auto
+}
+
+nav ul
+{
+    list-style-type: none;
+    width :800px;
+    margin:auto
+}
+
+nav li
+{
+    display: inline-block;
+    padding: 10px
+    
+}
+
+.formu{
+    margin:10px
+}
