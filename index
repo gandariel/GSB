@@ -58,9 +58,15 @@ and open the template in the editor.
                     <h1>TITRE ASIDE</h1>
                 </header>
                 <article>
+                    <header>
+                        <h2>Titre news</h2>
+                    </header>
                     <p>Texte news à venir...</p>
                 </article>
                 <article>
+                    <header>
+                        <h2>Titre news</h2>
+                    </header>
                     <p>Texte news à venir...</p>
                 </article>
             </aside>
