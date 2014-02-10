@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>GSB - Accueil</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">       
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>       
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>       
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        
+
+        
+    </head>
+    <body>
+        <div id="corps_site">
+            <header>
+                <nav></nav>
+            </header>
+            <section>
+                <article>
+                    
+                </article>
+            </section>
+            <aside></aside>
+            <footer></footer>
+        </div>
+    </body>
+</html>
