@@ -19,7 +19,31 @@ and open the template in the editor.
     <body>
         <div id="corps_site">
             <header>
-                <nav></nav>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Accueil</a>
+                        </li>
+                        <li >
+                            <a href="#">Présentation</a>
+                        </li>
+                        <li >
+                            <a href="#">Activité</a>
+                        </li>
+                        <li >
+                            <a href="#">Comité d'entreprise</a>
+                        </li>
+                        <li >
+                            <a href="#">Sport</a>
+                        </li>
+                        <li >
+                            <a href="#">Contact</a>
+                        </li>
+                        <li >
+                            <a href="#">Commentaires</a>
+                        </li>
+                    </ul>
+                </nav>
             </header>
             <section>
                 <article>
