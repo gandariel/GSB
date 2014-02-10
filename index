@@ -47,11 +47,50 @@ and open the template in the editor.
             </header>
             <section>
                 <article>
-                    
+                    <header>
+                        <h1>TITRE ARTICLE</h1>
+                    </header>
+                    <p>Texte à venir....</p>
                 </article>
             </section>
-            <aside></aside>
-            <footer></footer>
+            <aside>
+                <header>
+                    <h1>TITRE ASIDE</h1>
+                </header>
+                <article>
+                    <p>Texte news à venir...</p>
+                </article>
+                <article>
+                    <p>Texte news à venir...</p>
+                </article>
+            </aside>
+            <footer>
+                <article>
+                    <header>
+                        <h1>GSB - Entreprise</h1>
+                    </header>
+                    <ul>
+                        <li><a href='#'>Notre histoire</a></li>
+                        <li><a href='#'>Plan du site</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <h1>Contact</h1>
+                    </header>
+                    <address>
+                        <strong>GSB</strong><br>
+                        10, rue Notre Dame des Victoires<br>
+                        Roubaix, 59100<br>
+                        <abbr title="Phone">P:</abbr> 03 20 89 41 41
+                    </address>
+
+                    <address>
+                        <strong>E-mail</strong><br>
+                        <a href="mailto:#">Gsb-contact@gsb.com</a>
+                    </address>
+                </article>
+            </footer>
         </div>
     </body>
 </html>
