@@ -14,8 +14,11 @@ body{
     margin: auto
 }
 
-nav{
-    background-color: black
+nav
+{
+    background-color: black;
+	text-align : center;
+
 }
 
 nav ul
@@ -41,7 +44,7 @@ nav li
     margin: 20px;
     margin-top: 20px;
     border-radius: 50px;
-    height:  700px
+    height:  750px;
 }
 
 .info{
