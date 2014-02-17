@@ -1,5 +1,5 @@
 <?php
-include 'function.php';
+include 'functions.php';
 include 'connexion.html';
 try 
 {
@@ -10,8 +10,8 @@ catch(Exception $e)
      echo 'erreur de connexion';
 }
 
-$identifiant=$_POST['identifiant'];
-$mdp=$_POST['motDePasse'];
+$identifiant=$_POST['user'];
+$mdp=$_POST['password'];
 
 verifierLogs($pdo, $identifiant, $mdp);
 ?>
