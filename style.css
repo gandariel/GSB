@@ -1,7 +1,6 @@
 body{
-    background :url("images/fondSobre2.png");
-    width: 1000px;
-    margin:auto
+    margin:auto;
+    background-color: black
 }
 
 .logo{
@@ -13,6 +12,10 @@ body{
     display: inline-block;
     width: 1000px;
     margin: auto
+}
+
+nav{
+    background-color: black
 }
 
 nav ul
@@ -31,4 +34,35 @@ nav li
 
 .formu{
     margin:10px
+}
+
+.center-block{
+    background-color: white;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    height:  700px
+}
+
+.info{
+    display:inline-block;
+    vertical-align: top;
+    width: 300px;
+    color:white;
+}
+
+.blocInfos{
+    margin: auto;
+    clear: right;
+    height: 260px;
+    background-color: black
+}
+
+.lesNews{
+    float: right;
+    margin-right: 100px
+}
+
+.article{
+    margin-left: 100px
 }

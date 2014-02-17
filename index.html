@@ -6,17 +6,98 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>GSB - Accueil</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        
+
+        
     </head>
     <body>
-        <div class="row formu"><div class="col-md-5"><label>nom</label><input type="text" class="form-control" placeholder="Text input"></div></div>
-        <div class="row formu"><div class="col-md-5"><label>prenom</label><input type="text" class="form-control" placeholder="Text input"></div></div>
-        <div class="row formu"><div class="col-md-5"><label>E-mail</label><input type="text" class="form-control" placeholder="Text input"></div></div>
-        <div class="row formu"><div class="col-md-7"><label>Messages</label><textarea class="form-control" rows="3"></textarea></div></div>
+        <div class="center-block">
+            <header>
+                <figure class="logo">
+                    <img src="images/gsb.png" alt="gsb"/>
+                </figure>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Accueil</a>
+                        </li>
+                        <li >
+                            <a href="#">Présentation</a>
+                        </li>
+                        <li >
+                            <a href="#">Activité</a>
+                        </li>
+                        <li >
+                            <a href="#">Comité d'entreprise</a>
+                        </li>
+                        <li >
+                            <a href="#">Sport</a>
+                        </li>
+                        <li >
+                            <a href="#">Contact</a>
+                        </li>
+                        <li >
+                            <a href="#">Commentaires</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <aside class="lesNews">
+                <header>
+                    <h1>TITRE ASIDE</h1>
+                </header>
+                <article class="news">
+                    <header>
+                        <h2>Titre news</h2>
+                    </header>
+                    <p>Texte news à venir...</p>
+                </article>
+                <article class="news">
+                    <header>
+                        <h2>Titre news</h2>
+                    </header>
+                    <p>Texte news à venir...</p>
+                </article>
+            </aside>
+            <section class="article">
+                <article>
+                    <header>
+                        <h1>TITRE ARTICLE</h1>
+                    </header>
+                    <p>Texte à venir....</p>
+                </article>
+            </section>
+            
+        </div>
+        <div class="blocInfos">
+            <footer class="lesInfos">
+                <article class="info">
+                        <h1>GSB - Entreprise</h1>
+                    <ul>
+                        <li><a href='#'>Notre histoire</a></li>
+                        <li><a href='#'>Plan du site</a></li>
+                    </ul>
+                </article>
+                <article class="info">
+                    <h1>Contact</h1>
+                    <address>
+                        <strong>GSB</strong><br>
+                        10, rue Notre Dame des Victoires<br>
+                        Roubaix, 59100<br>
+                        <abbr title="Phone">P:</abbr> 03 20 89 41 41
+                    </address>
+                    <address>
+                        <strong>E-mail</strong><br>
+                        <a href="mailto:#">Gsb-contact@gsb.com</a>
+                    </address>
+                </article> 
+            </footer>
+        </div>
     </body>
 </html>
