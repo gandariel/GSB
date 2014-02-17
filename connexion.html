@@ -51,9 +51,13 @@ and open the template in the editor.
             <section class="article">
                 <article>
                     <header>
-                        <h1>TITRE ARTICLE</h1>
+                        <h1>Connectez-vous pour accéder à votre compte GSB</h1>
                     </header>
-                    <p>Texte à venir....</p>
+                    <form method="post" action="traitement.php">
+                        <label for="user"></label><input type="text" name="user" id="user" required autofocus placeholder="username"/><br/>
+                        <label for="password"></label><input type="password" name="password" id="password" required placeholder="password"/><br/>
+                        <input type="submit" name="connexion" id="connexion" value="Connexion"/><br/>
+                    </form>
                 </article>
             </section>
             <aside class="lesNews">
