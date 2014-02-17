@@ -17,10 +17,10 @@ and open the template in the editor.
         
     </head>
     <body>
-        <div id="corps_site">
+        <div class="center-block">
             <header>
                 <figure class="logo">
-                    <img src="images/gsb.png" />
+                    <img src="images/gsb.png" alt="gsb"/>
                 </figure>
                 <nav>
                     <ul>
@@ -42,19 +42,6 @@ and open the template in the editor.
                     </ul>
                 </nav>
             </header>
-            <section class="article">
-                <article>
-                    <header>
-                        <h1>Connectez-vous pour accéder à votre compte GSB</h1>
-                    </header>
-                    <form method="post" action="traitement.php">
-                        <label for="user"></label><input type="text" name="user" id="user" required autofocus placeholder="username"/><br/>
-                        <label for="password"></label><input type="password" name="password" id="password" required placeholder="password"/><br/>
-                        <p> L'e-mail ou le mot de passe saisi est incorrect.</p><br/>
-                        <input type="submit" name="connexion" id="connexion" value="Connexion"/><br/>
-                    </form>
-                </article>
-            </section>
             <aside class="lesNews">
                 <header>
                     <h1>TITRE ASIDE</h1>
@@ -72,28 +59,43 @@ and open the template in the editor.
                     <p>Texte news à venir...</p>
                 </article>
             </aside>
-            <footer>
+            <section class="article">
                 <article>
+                    <header>
+                        <h1>Connectez-vous pour accéder à votre compte GSB</h1>
+                    </header>
+                    <form method="post" action="traitement.php">
+                        <label for="user"></label><input type="text" name="user" id="user" required autofocus placeholder="username"/><br/>
+                        <label for="password"></label><input type="password" name="password" id="password" required placeholder="password"/><br/>
+                        <p> L'e-mail ou le mot de passe saisi est incorrect.</p><br/>
+                        <input type="submit" name="connexion" id="connexion" value="Connexion"/><br/>
+                    </form>
+                </article>
+            </section>
+            
+        </div>
+        <div class="blocInfos">
+            <footer class="lesInfos">
+                <article class="info">
                         <h1>GSB - Entreprise</h1>
                     <ul>
                         <li><a href='#'>Notre histoire</a></li>
                         <li><a href='#'>Plan du site</a></li>
                     </ul>
                 </article>
-                <article>
-                        <h1>Contact</h1>
+                <article class="info">
+                    <h1>Contact</h1>
                     <address>
                         <strong>GSB</strong><br>
                         10, rue Notre Dame des Victoires<br>
                         Roubaix, 59100<br>
                         <abbr title="Phone">P:</abbr> 03 20 89 41 41
                     </address>
-
                     <address>
                         <strong>E-mail</strong><br>
                         <a href="mailto:#">Gsb-contact@gsb.com</a>
                     </address>
-                </article>
+                </article> 
             </footer>
         </div>
     </body>
