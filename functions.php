@@ -17,9 +17,8 @@ function verifierLogs($pdo, $identifiant, $mdp)
     {
         header('Location: authentification_Failed.html');
     }
-    $requete->CloseCursor();
-    
-
-     
+    $requete->CloseCursor();    
 }
+
+
 ?>

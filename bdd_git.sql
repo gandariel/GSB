@@ -1,13 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 3.5.1
+-- version 4.0.4
 -- http://www.phpmyadmin.net
 --
 -- Client: localhost
--- Généré le: Lun 17 Février 2014 à 13:17
--- Version du serveur: 5.5.24-log
--- Version de PHP: 5.4.3
+-- Généré le: Mer 19 Février 2014 à 21:07
+-- Version du serveur: 5.6.12-log
+-- Version de PHP: 5.4.12
 
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
@@ -19,8 +19,21 @@ SET time_zone = "+00:00";
 --
 -- Base de données: `bdd_git`
 --
-CREATE DATABASE `bdd_git` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+CREATE DATABASE IF NOT EXISTS `bdd_git` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `bdd_git`;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `contact`
+--
+
+CREATE TABLE IF NOT EXISTS `contact` (
+  `nom` varchar(50) NOT NULL,
+  `prenom` varchar(50) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `commentaire` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
