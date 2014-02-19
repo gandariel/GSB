@@ -14,4 +14,5 @@ $identifiant=$_POST['user'];
 $mdp=$_POST['password'];
 
 verifierLogs($pdo, $identifiant, $mdp);
+echo 'lol';
 ?>

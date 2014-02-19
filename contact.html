@@ -6,17 +6,76 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>GSB - Accueil</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        
+
+        
     </head>
     <body>
-        <div class="row formu"><div class="col-md-5"><label>nom</label><input type="text" class="form-control" placeholder="Text input"></div></div>
-        <div class="row formu"><div class="col-md-5"><label>prenom</label><input type="text" class="form-control" placeholder="Text input"></div></div>
-        <div class="row formu"><div class="col-md-5"><label>E-mail</label><input type="text" class="form-control" placeholder="Text input"></div></div>
-        <div class="row formu"><div class="col-md-7"><label>Messages</label><textarea class="form-control" rows="3"></textarea></div></div>
+        <div class="center-block corps">
+            <header>
+                <figure class="logo">
+                    <img src="images/gsb.png" alt="gsb"/>
+                </figure>
+                <nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+                    <ul>
+                        <li>
+                            <a href="presentation.html">Accueil</a>
+                        </li>
+                        <li >
+                            <a href="activite.html">Activité</a>
+                        </li>
+                        <li >
+                            <a href="contact.html">Contact</a>
+                        </li>
+						<li >
+                            <a href="connexion.html">Connexion</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="lesArticle">
+                <article>
+                    <header>
+                        <h1>Contactez nous !</h1>
+                    </header>
+                    <div class="row formu"><div class="col-md-5"><label>nom</label><input type="text" class="form-control" placeholder="Text input"></div></div>
+                    <div class="row formu"><div class="col-md-5"><label>prenom</label><input type="text" class="form-control" placeholder="Text input"></div></div>
+                    <div class="row formu"><div class="col-md-5"><label>E-mail</label><input type="text" class="form-control" placeholder="Text input"></div></div>
+                    <div class="row formu"><div class="col-md-7"><label>Messages</label><textarea class="form-control" rows="3"></textarea></div></div>
+                </article>
+            </section>
+            
+        </div>
+
+        <div class="blocInfos">
+            <footer class="lesInfos">
+                <article class="info">
+                        <h1>GSB - Entreprise</h1>
+                    <ul>
+                        <li><a href='#'>Notre histoire</a></li>
+                        <li><a href='#'>Plan du site</a></li>
+                    </ul>
+                </article>
+                <article class="info pull-right">
+                    <h1>Contact</h1>
+                    <address>
+                        <strong>GSB</strong><br>
+                        10, rue Notre Dame des Victoires<br>
+                        Roubaix, 59100<br>
+                        <abbr title="Phone">P:</abbr> 03 20 89 41 41
+                    </address>
+                    <address>
+                        <strong>E-mail</strong><br>
+                        <a href="mailto:#">Gsb-contact@gsb.com</a>
+                    </address>
+                </article> 
+            </footer>
+        </div>
     </body>
 </html>
