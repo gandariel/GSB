@@ -6,12 +6,12 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>GSB - Contact</title>
+        <title>GSB - Connexion</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css"/>
         
 
         
@@ -20,7 +20,7 @@ and open the template in the editor.
         <div class="center-block corps">
             <header>
                 <figure class="logo">
-                    <img src="images/gsb.png" alt="gsb"/>
+                    <img src="../images/gsb.png" />
                 </figure>
                 <nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
                     <ul>
@@ -39,19 +39,19 @@ and open the template in the editor.
                     </ul>
                 </nav>
             </header>
-            <section class="lesArticle">
+            <section>
                 <article>
                     <header>
-                        <h1>Contactez nous !</h1>
+                        <h1 class="text-center">Connectez-vous pour accéder à votre compte GSB</h1>
                     </header>
-                    <div class="row formu"><div class="col-md-5"><label>Nom</label><input type="text" class="form-control" placeholder="Votre nom"></div></div>
-                    <div class="row formu"><div class="col-md-5"><label>Prénom</label><input type="text" class="form-control" placeholder="Votre prénom"></div></div>
-                    <div class="row formu"><div class="col-md-5"><label>E-mail</label><input type="text" class="form-control" placeholder="Votre E-mail"></div></div>
-                    <div class="row formu"><div class="col-md-7"><label>Commentaires</label><textarea class="form-control" rows="3" placeholder="Saisir ici votre message..."></textarea></div></div>
-                    <button type="submit" class="btn btn-default">Envoyer</button>
+                    <br/>
+                    <form method="post" action="traitement.php" class="text-center">
+                        <label for="user"></label><input type="text" name="user" id="user" required autofocus placeholder="Nom d'utilisateur"/><br/>
+                        <label for="password"></label><input type="password" name="password" id="password" required placeholder="Mot de passe"/><br/>
+                        <input type="submit" name="connexion" id="connexion" value="Connexion"/><br/>
+                    </form>
                 </article>
             </section>
-            
         </div>
 
         <div class="blocInfos">
@@ -63,7 +63,7 @@ and open the template in the editor.
                         <li><a href='#'>Plan du site</a></li>
                     </ul>
                 </article>
-                <article class="info pull-right">
+                <article class="info adresse">
                     <h1>Contact</h1>
                     <address>
                         <strong>GSB</strong><br>

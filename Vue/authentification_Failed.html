@@ -9,15 +9,15 @@ and open the template in the editor.
         <title>GSB - Echec authentification</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css"/>
     </head>
     <body>
         <div class="center-block corps">
             <header>
                 <figure class="logo">
-                    <img src="images/gsb.png" />
+                    <img src="../images/gsb.png" />
                 </figure>
                 <nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
                     <ul>
@@ -43,8 +43,8 @@ and open the template in the editor.
                     </header>
                     <br/>
                     <form method="post" action="traitement.php" class="text-center">
-                        <label for="user"></label><input type="text" name="user" id="user" required autofocus placeholder="username"/><br/>
-                        <label for="password"></label><input type="password" name="password" id="password" required placeholder="password"/><br/>
+                        <label for="user" ></label><input type="text" name="user" id="user" required autofocus placeholder="Nom d'utilisateur"/><br/>
+                        <label for="password" ></label><input type="password"  name="password" id="password" required placeholder="Mot de passe"/><br/>
                         <p> L'e-mail ou le mot de passe saisi est incorrect.</p><br/>
                         <input type="submit" name="connexion" id="connexion" value="Connexion"/><br/>
                     </form>
