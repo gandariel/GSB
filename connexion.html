@@ -22,7 +22,7 @@ and open the template in the editor.
                 <figure class="logo">
                     <img src="images/gsb.png" />
                 </figure>
-                <nav>
+                <nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
                     <ul>
                         <li>
                             <a href="presentation.html">Accueil</a>
@@ -39,12 +39,13 @@ and open the template in the editor.
                     </ul>
                 </nav>
             </header>
-            <section class="lesArticle">
+            <section>
                 <article>
                     <header>
-                        <h1>Connectez-vous pour accéder à votre compte GSB</h1>
+                        <h1 class="text-center">Connectez-vous pour accéder à votre compte GSB</h1>
                     </header>
-                    <form method="post" action="traitement.php">
+                    <br/>
+                    <form method="post" action="traitement.php" class="text-center">
                         <label for="user"></label><input type="text" name="user" id="user" required autofocus placeholder="username"/><br/>
                         <label for="password"></label><input type="password" name="password" id="password" required placeholder="password"/><br/>
                         <input type="submit" name="connexion" id="connexion" value="Connexion"/><br/>
@@ -52,6 +53,7 @@ and open the template in the editor.
                 </article>
             </section>
         </div>
+
         <div class="blocInfos">
             <footer class="lesInfos">
                 <article class="info">

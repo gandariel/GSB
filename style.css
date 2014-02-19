@@ -1,6 +1,8 @@
+
+
 body{
     margin:auto;
-    background-color: black;
+    background-color: #000;
     /*min-width:1500px*/
 }
 
@@ -19,7 +21,6 @@ body{
 
 nav
 {
-    background-color: black;
 	text-align : center;
 
 
@@ -76,10 +77,6 @@ nav li
 
 .lesArticle{
     margin-left: 100px
-}
-
-.adresse{
-    float: right;
 }
 
 .article{
