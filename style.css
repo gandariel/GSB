@@ -1,17 +1,20 @@
 body{
     margin:auto;
-    background-color: black
+    background-color: black;
+    /*min-width:1500px*/
 }
 
 .logo{
-    width: 400px;
-    margin: auto
+    width: 300px;
+    margin: auto;
+    min-width: 300px
 }
 
 .menu{
     display: inline-block;
     width: 1000px;
-    margin: auto
+    margin: auto;
+
 }
 
 nav
@@ -19,13 +22,14 @@ nav
     background-color: black;
 	text-align : center;
 
+
 }
 
 nav ul
 {
     list-style-type: none;
     width :800px;
-    margin:auto
+    margin: auto
 }
 
 nav li
@@ -39,12 +43,13 @@ nav li
     margin:10px
 }
 
-.center-block{
+.corps{
     background-color: white;
     margin: 20px;
     margin-top: 20px;
     border-radius: 50px;
-    height:  750px;
+    padding-bottom: 100px;
+    min-width: 1500px
 }
 
 .info{
@@ -55,17 +60,34 @@ nav li
 }
 
 .blocInfos{
+    width: 800px;
     margin: auto;
     clear: right;
     height: 260px;
-    background-color: black
+    background-color: black;
+    min-width: 600px
 }
 
 .lesNews{
     float: right;
-    margin-right: 100px
+    margin-right: 100px;
+    height: 500px
+
+
+}
+
+.lesArticle{
+    margin-left: 100px
+}
+
+.adresse{
+    float: right;
 }
 
 .article{
-    margin-left: 100px
+    min-width: 500px
+}
+
+.news{
+    min-width: 400px
 }
