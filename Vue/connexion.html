@@ -6,12 +6,12 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>GSB - Authentification Réussi</title>
+        <title>GSB - Connexion</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css"/>
         
 
         
@@ -20,7 +20,7 @@ and open the template in the editor.
         <div class="center-block corps">
             <header>
                 <figure class="logo">
-                    <img src="images/gsb.png" alt="gsb"/>
+                    <img src="../images/gsb.png" />
                 </figure>
                 <nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
                     <ul>
@@ -39,20 +39,19 @@ and open the template in the editor.
                     </ul>
                 </nav>
             </header>
-            <section class="lesArticle">
-                <article class="text-center">
+            <section>
+                <article>
                     <header>
-                        <h1>AUTHENTIFICATION REUSSIE !</h1>
+                        <h1 class="text-center">Connectez-vous pour accéder à votre compte GSB</h1>
                     </header>
-                    <p >Bienvenue, 
-                        vous êtes maintenant connecté!</p>
-                        <p >
-                            Cliquez <a href="presentation.html">ici</a> 
-                            pour revenir à la page d accueil
-                        </p>
+                    <br/>
+                    <form method="post" action="traitement.php" class="text-center">
+                        <label for="user"></label><input type="text" name="user" id="user" required autofocus placeholder="Nom d'utilisateur"/><br/>
+                        <label for="password"></label><input type="password" name="password" id="password" required placeholder="Mot de passe"/><br/>
+                        <input type="submit" name="connexion" id="connexion" value="Connexion"/><br/>
+                    </form>
                 </article>
             </section>
-            
         </div>
 
         <div class="blocInfos">
@@ -64,13 +63,13 @@ and open the template in the editor.
                         <li><a href='#'>Plan du site</a></li>
                     </ul>
                 </article>
-                <article class="info pull-right">
+                <article class="info adresse">
                     <h1>Contact</h1>
                     <address>
                         <strong>GSB</strong><br>
                         10, rue Notre Dame des Victoires<br>
                         Roubaix, 59100<br>
-                        <abbr title="Phone">P:</abbr> 03 20 89 41 41
+                        <abbr title="Telephone">Tel :</abbr> 03 20 89 41 41
                     </address>
                     <address>
                         <strong>E-mail</strong><br>

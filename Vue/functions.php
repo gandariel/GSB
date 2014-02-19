@@ -17,10 +17,7 @@ function verifierLogs($pdo, $identifiant, $mdp)
     {
         header('Location: authentification_Failed.html');
     }
-    $requete->CloseCursor();
-    
-
-     
+    $requete->CloseCursor();    
 }
 function ajouterCommentaire($pdo, $nom, $prenom, $email, $commentaire)
 {
@@ -31,6 +28,5 @@ function ajouterCommentaire($pdo, $nom, $prenom, $email, $commentaire)
     $requete->bindValue(":commentaire", $commentaire);
     $requete->execute();
     $requete->CloseCursor();
-    echo 'lol';
 }
 ?>
