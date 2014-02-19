@@ -49,7 +49,7 @@ nav li
     margin-top: 20px;
     border-radius: 50px;
     padding-bottom: 100px;
-    min-width: 1500px
+    min-width: 1200px
 }
 
 .info{
@@ -72,8 +72,6 @@ nav li
     float: right;
     margin-right: 100px;
     height: 500px
-
-
 }
 
 .lesArticle{
