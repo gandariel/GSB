@@ -22,4 +22,15 @@ function verifierLogs($pdo, $identifiant, $mdp)
 
      
 }
+function ajouterCommentaire($pdo, $nom, $prenom, $email, $commentaire)
+{
+    $requete=$pdo->prepare('INSERT INTO contact VALUES(:nom, :prenom, :email, :commentaire');
+    $requete->bindValue(":nom", $nom);
+    $requete->bindValue(":prenom", $prenom);
+    $requete->bindValue(":email", $email);
+    $requete->bindValue(":commentaire", $commentaire);
+    $requete->execute();
+    $requete->CloseCursor();
+    echo 'lol';
+}
 ?>
